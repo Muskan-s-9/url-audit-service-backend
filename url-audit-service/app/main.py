@@ -17,7 +17,7 @@ configure_logging()
 app = FastAPI(title=settings.app_name)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://url-audit-service-frontend-4x7e5vkdl-muskan090s-projects.vercel.app"],
+    allow_origins=["https://url-audit-service-frontend.vercel.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
